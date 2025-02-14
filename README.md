@@ -1,8 +1,8 @@
-<h1 style="font-family: Monospace;font-weight: bold;">🥶 Lawrence Heras</h1>
+<h1 style="font-family: Monospace;font-weight: bold;">🥶 Lawrence Heras <img  alt="car" width="30px" style="padding-right:10px;" src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" /></h1>
 
 **`IT Student (Developer/Tester)`**
 
-<img  alt="car" width="300px" style="padding-right:10px;" src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" />
+
 
 
 ### 🧰 Languages and Tools
