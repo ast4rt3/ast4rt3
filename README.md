@@ -5,14 +5,18 @@
 **`IT Student (Developer/Tester)`**
 
 
-<div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 10px; display: inline-block; background: url('https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif') center/cover no-repeat, #0d1117;">
-    <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="border-radius: 10px;"/>
-
+<div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 15px; display: flex; align-items: center; flex-direction: column; gap: 10px; background-color: #0d1117; text-align: center;">
+    
+<!-- GIF -->
+<img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="border-radius: 10px;"/>
+    
+<!-- GitHub Streak -->
 <a href="https://github.com/ast4rt3">
-    <img src="http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=0d1117" alt="GitHub Streak"/>
-</a>
+        <img src="http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=0d1117" alt="GitHub Streak" style="border-radius: 10px; border: 2px solid #1f6feb;"/>
+    </a>
 
 </div>
+
 
     
 
