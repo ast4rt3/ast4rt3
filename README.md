@@ -2,7 +2,8 @@
 
 **`IT Student (Developer/Tester)`**
 
-![car](https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif)
+<img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="50px" style="padding-right:10px;" />
+
 
 
 
