@@ -37,6 +37,7 @@
     <a href="https://github.com/ast4rt3?tab=repositories">
         <img src="https://custom-icon-badges.demolab.com/badge/-My%20Repos-blue?style=for-the-badge&logoColor=white&logo=repo" alt="My Repos"/>
     </a>
+    <img src="https://komarev.com/ghpvc/?username=ast4rt3&label=Profile%20views&color=0e75b6&style=flat" alt="ast4rt3" />
     <img src="https://custom-icon-badges.demolab.com/github/watchers/ast4rt3/TrapAdventure?logo=eye&style=social&logoColor=black"/>
     <img src="https://custom-icon-badges.demolab.com/github/forks/ast4rt3/TrapAdventure?logo=fork&style=social&logoColor=black"/>
     <img src="https://custom-icon-badges.demolab.com/github/followers/ast4rt3?logo=person-add&style=social&logoColor=black"/>
