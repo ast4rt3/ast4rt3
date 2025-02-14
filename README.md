@@ -1,6 +1,6 @@
 
 
-<h1 >🥶 Lawrence Heras </h1>
+<h1 text-align: center;>🥶 Lawrence Heras </h1>
 
 **`IT Student (Developer/Tester)`**
 
