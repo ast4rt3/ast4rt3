@@ -1,10 +1,10 @@
-link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" type="text/css" href="testing.css">
     <link rel="stylesheet" type="text/css" href="css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 
-    <i class="fab fa-github-square"><a href="https://github.com/willyblackkeez" id="profile-link"></a></i>
-    <i class="fab fa-facebook"></i>
+<i class="fab fa-github-square"><a href="https://github.com/willyblackkeez" id="profile-link"></a></i>
+<i class="fab fa-facebook"></i>
 
 
 <h1 style="font-family: Monospace;font-weight: bold;">🥶 Lawrence Heras </h1>
