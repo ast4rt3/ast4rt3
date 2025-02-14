@@ -5,7 +5,7 @@
 **`IT Student (Developer/Tester)`**
 
 <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="padding-right:10px;" />
-<div id="header" align="center">
+<div id="header" align="right" width="150px";>
 <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" width="100"/>
 </div>
 
