@@ -12,7 +12,10 @@
 <img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 
-[<img src="https://custom-icon-badges.demolab.com/badge/Mail-E61B23.svg?logo=mail"/>]()
+#
+
+[<img src="https://custom-icon-badges.demolab.com/badge/Mail-E61B23.svg?logo=mail"/>](lawrenze3206@gmail.com)
+[<img src="https://custom-icon-badges.demolab.com/github/watchers/DenverCoder1/custom-icon-badges?logo=eye&style=social&logoColor=black"/>]
 
 #
 
