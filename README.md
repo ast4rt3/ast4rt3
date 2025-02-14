@@ -14,9 +14,9 @@
 
 #
 
-[<img src="https://custom-icon-badges.demolab.com/badge/Mail-E61B23.svg?logo=mail"/>](lawrenze3206@gmail.com)
-[<img src="https://custom-icon-badges.demolab.com/github/watchers/DenverCoder1/custom-icon-badges?logo=eye&style=social&logoColor=black"/>]
-[<img src="https://custom-icon-badges.demolab.com/github/forks/DenverCoder1/custom-icon-badges?logo=fork&style=social&logoColor=black"/>]
+<img src="https://custom-icon-badges.demolab.com/badge/Mail-E61B23.svg?logo=mail"/><a(lawrenze3206@gmail.com)/>
+<img src="https://custom-icon-badges.demolab.com/github/watchers/DenverCoder1/custom-icon-badges?logo=eye&style=social&logoColor=black"/>
+<img src="https://custom-icon-badges.demolab.com/github/forks/DenverCoder1/custom-icon-badges?logo=fork&style=social&logoColor=black"/>
 #
 
 ![Lawrence's GitHub stats](https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=gruvbox)
