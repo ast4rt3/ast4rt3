@@ -1,9 +1,6 @@
-<link href=’https://fonts.googleapis.com/css?family=Gruppo’ rel=’stylesheet’>
-<style> body { font-family: ‘Gruppo’;font-size: 22px; } </style> </head> <body> 
-<h1>Gruppo</h2> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 
 
-<h1 style="font-family: Monospace;font-weight: bold;">🥶 Lawrence Heras </h1>
+<h1 style="font-family: ‘Gruppo’;font-size: 22px;;font-weight: bold;">🥶 Lawrence Heras </h1>
 
 **`IT Student (Developer/Tester)`**
 
