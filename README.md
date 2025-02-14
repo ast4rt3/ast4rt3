@@ -11,7 +11,9 @@
 <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="border-radius: 10px;"/>
     
 <!-- GitHub Streak -->
-[![GitHub Streak](https://github-readme-streak-stats.vercel.app?user=ast4rt3&theme=tokyonight_duo&background=0d1117)](https://github.com/ast4rt3)
+<a href="https://github.com/ast4rt3">
+        <img src="http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=0d1117" alt="GitHub Streak" style="border-radius: 10px; border: 2px solid #1f6feb;"/>
+    </a>
 
 
 
