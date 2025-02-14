@@ -5,13 +5,11 @@
 **`IT Student (Developer/Tester)`**
 
 <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="padding-right:10px;" />
-<div id="header" align="right" width="150px";>
-<img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" width="100"/>
-</div>
 
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-username&theme=dark&background=000000)](https://git.io/streak-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=dark&background=000000)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ast4rt3&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ### 🧰 Languages and Tools
