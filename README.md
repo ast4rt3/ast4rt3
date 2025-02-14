@@ -2,6 +2,9 @@
 
 **`IT Student (Developer/Tester)`**
 
+<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" />
+
+
 ### 🧰 Languages and Tools
 
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
