@@ -2,7 +2,7 @@
 
 **`IT Student (Developer/Tester)`**
 
-<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" />
+<img  alt="car" width="300px" style="padding-right:10px;" src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" />
 
 
 ### 🧰 Languages and Tools
