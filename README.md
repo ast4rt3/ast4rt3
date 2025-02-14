@@ -1,10 +1,10 @@
 
 
-<h1 style="font-family: ‘Gruppo’;font-size: 22px;;font-weight: bold;">🥶 Lawrence Heras </h1>
+<h1 >🥶 Lawrence Heras </h1>
 
 **`IT Student (Developer/Tester)`**
 
-<div style="display: flex; align-items: center; gap: 10px;">
+<div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 5px; display: inline-block; background-color: #0d1117;">
     <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px"/>
     <a href="https://git.io/streak-stats">
     <img src="http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=0d1117" alt="GitHub Streak"/>
