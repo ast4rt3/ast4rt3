@@ -1,4 +1,4 @@
-<h1 style="font-family: Monospace;">🥶 Lawrence Heras</h1>
+<h1 style="font-family: Monospace;font-weight: bold;">🥶 Lawrence Heras</h1>
 
 **`IT Student (Developer/Tester)`**
 
