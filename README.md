@@ -4,9 +4,11 @@
 
 **`IT Student (Developer/Tester)`**
 
-<div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 5px; display: inline-block; background-color: #0d1117;">
-    <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px"/>
-    <a href="https://github.com/ast4rt3">
+
+<div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 10px; display: inline-block; background: url('https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif') center/cover no-repeat, #0d1117;">
+    <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="border-radius: 10px;"/>
+
+<a href="https://github.com/ast4rt3">
     <img src="http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=0d1117" alt="GitHub Streak"/>
 </a>
 
