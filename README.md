@@ -4,7 +4,6 @@
 
 **`IT Student (Developer/Tester)`**
 
-
 <div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 15px; display: flex; align-items: center; flex-direction: column; gap: 10px; background-color: #0d1117; text-align: center;">
     
 <!-- GIF -->
