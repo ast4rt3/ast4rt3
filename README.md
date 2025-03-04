@@ -9,7 +9,7 @@
 <!-- GIF -->
 <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="border-radius: 10px;"/>
 
-[![🔊 Vine Boom Sound](https://img.shields.io/badge/Vine%20Boom%20Sound-%F0%9F%94%8A-blue?style=for-the-badge)](https://www.myinstants.com/en/instant/vine-boom-sound-70972/)
+[![🔊 Click to Play Vine Boom](https://img.shields.io/badge/Vine%20Boom%20-%F0%9F%94%8A-blue?style=for-the-badge)](https://yourusername.github.io/yourrepo/)
 
 <!-- GitHub Streak -->
 <a href="https://github.com/ast4rt3">
