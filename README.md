@@ -12,8 +12,13 @@
 <!-- Audio Element -->
 <audio id="vineBoomAudio">
     <source src="https://www.myinstants.com/media/sounds/vine-boom.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
 </audio>
+<script>
+    document.getElementById('vineBoomBtn').addEventListener('click', function() {
+        var audio = document.getElementById('vineBoomAudio');
+        audio.play();
+    });
+</script>
 
 <!-- GitHub Streak -->
 <a href="https://github.com/ast4rt3">
