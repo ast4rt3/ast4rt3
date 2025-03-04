@@ -9,7 +9,8 @@
 <!-- GIF -->
 <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="border-radius: 10px;"/>
 
-[![Secret](https://img.shields.io/badge/Vine%20Boom%20-%F0%9F%94%8A-blue?style=for-the-badge)](https://ast4rt3.github.io/ast4rt3/)
+[![Secret](https://img.shields.io/badge/Secret-%F0%9F%92%AB-purple?style=for-the-badge)](https://ast4rt3.github.io/ast4rt3/)
+
 
 <!-- GitHub Streak -->
 <a href="https://github.com/ast4rt3">
