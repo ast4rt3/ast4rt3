@@ -8,7 +8,11 @@
     
 <!-- GIF -->
 <img src="https://media.tenor.com/Ry9PSsQTcxoAAAAM/who-are-you-cat.gif" alt="car" width="150px" style="border-radius: 10px;"/>
-    
+<!-- MP3 Player -->
+<audio controls style="margin-top: 10px;">
+    <source src="https://www.myinstants.com/en/instant/vine-boom-sound-70972/?utm_source=copy&utm_medium=share" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 <!-- GitHub Streak -->
 <a href="https://github.com/ast4rt3">
         <img src="http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=0d1117" alt="GitHub Streak" style="border-radius: 10px; border: 2px solid #1f6feb;"/>
