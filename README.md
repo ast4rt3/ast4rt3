@@ -7,7 +7,7 @@
 <div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 15px; display: flex; align-items: center; flex-direction: column; gap: 10px; background-color: #0d1117; text-align: center;">
     
 <!-- GIF -->
-<img src="/suffer.gif" alt="car" width="150px" style="border-radius: 10px;"/>
+<img src="suffer.gif" alt="suffer" width="150px" style="border-radius: 10px;"/>
 
 [![Secret](https://img.shields.io/badge/Secret-%F0%9F%92%AB-purple?style=for-the-badge)](https://ast4rt3.github.io/ast4rt3/)
 
