@@ -9,7 +9,7 @@
   <img src="https://i.imgur.com/0zjKcyq.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/h5FY1Jf.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/mdyW5q6.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
-  <img src="https://i.imgur.com/IIQVILS.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
+  <img src="https://i.imgur.com/mjhAU7Z.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/wbMT5En.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/DaKjIAu.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/4h8zomo.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
