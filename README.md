@@ -7,7 +7,11 @@
 <div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 15px; display: flex; align-items: center; flex-direction: column; gap: 10px; background-color: #0d1117; text-align: center;">
     
 <!-- GIF -->
-<img src="https://media.tenor.com/y3p3bY5eEqYAAAAC/suffer-shout.gif" alt="suffer" width="150px" style="border-radius: 10px;"/>
+<div class="tenor-gif-embed" data-postid="5208497306113023148" data-share-method="host" data-aspect-ratio="0.564257" data-width="100%">
+<a href="https://tenor.com/view/suffer-shout-bright-saturated-gif-5208497306113023148">Suffer Shout GIF</a> from 
+<a href="https://tenor.com/search/suffer-gifs">Suffer GIFs</a>
+</div> 
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 [![Secret](https://img.shields.io/badge/Secret-%F0%9F%92%AB-purple?style=for-the-badge)](https://ast4rt3.github.io/ast4rt3/)
 
