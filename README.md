@@ -5,15 +5,15 @@
 <div style="border: 3px solid #1f6feb; border-radius: 10px; padding: 15px; display: flex; align-items: center; flex-direction: column; gap: 10px; background-color: #0d1117; text-align: center;">
     
     <!-- GIF -->
-    <img src="https://media.tenor.com/y3p3bY5eEqYAAAAC/suffer-shout.gif" alt="suffer" width="150px" style="border-radius: 10px;"/>
+<img src="https://media.tenor.com/y3p3bY5eEqYAAAAC/suffer-shout.gif" alt="suffer" width="150px" style="border-radius: 10px;"/>
 
     <!-- Secret Badge -->
-    <a href="https://ast4rt3.github.io/ast4rt3/">
+<a href="https://ast4rt3.github.io/ast4rt3/">
         <img src="https://img.shields.io/badge/Secret-%F0%9F%92%AB-purple?style=for-the-badge" alt="Secret Badge" />
     </a>
 
     <!-- GitHub Streak -->
-    <a href="https://github.com/ast4rt3">
+<a href="https://github.com/ast4rt3">
         <img src="http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=0d1117" alt="GitHub Streak" style="border-radius: 10px; border: 2px solid #1f6feb;"/>
     </a>
 
