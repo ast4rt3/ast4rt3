@@ -4,7 +4,7 @@
 
 <div style="display: flex; gap: 10px; justify-content: center;">
   <img src="https://i.imgur.com/h5FY1Jf.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
-  <img src="https://imgur.com/a/8rknV1Z.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
+  <img src="https://i.imgur.com/Z1F0y4N.gif.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/h5FY1Jf.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/h5FY1Jf.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/h5FY1Jf.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
