@@ -3,11 +3,7 @@
 <strong><code>IT Student (Developer/Tester)</code></strong>
 
 <!-- GIF -->
-<div class="tenor-gif-embed" data-postid="5208497306113023148" data-share-method="host" data-aspect-ratio="0.564257" data-width="100%">
-  <a href="https://tenor.com/view/suffer-shout-bright-saturated-gif-5208497306113023148">Suffer Shout GIF</a> from 
-  <a href="https://tenor.com/search/suffer-gifs">Suffer GIFs</a>
-</div>
-<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<img src="https://i.imgur.com/h5FY1Jf.gif" alt="suffer" width="150px" style="border-radius: 10px;" />
 
 
 <!-- Secret Badge -->
