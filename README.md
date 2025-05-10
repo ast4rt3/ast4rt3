@@ -1,7 +1,7 @@
 <h1 align="center">🥶 I'm Lawrence Heras</h1>
 
 <strong><code>IT Student (Developer/Tester)</code></strong>
-
+ 
 <div style="display: flex; gap: 10px; justify-content: center;">
   <img src="https://i.imgur.com/tOGzVVT.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
   <img src="https://i.imgur.com/Z1F0y4N.gif.gif?raw=true" alt="suffer" width="150px" style="border-radius: 10px;" />
