@@ -12,19 +12,22 @@
 
 ---
 
-### 🌌 Vibes (GIF Wall)
-<p align="center">
-  <img src="https://i.imgur.com/tOGzVVT.gif" width="100" />
-  <img src="https://i.imgur.com/Z1F0y4N.gif" width="100" />
-  <img src="https://i.imgur.com/vJP1f0g.png" width="100" />
-  <img src="https://i.imgur.com/0zjKcyq.gif" width="100" />
-  <img src="https://i.imgur.com/h5FY1Jf.gif" width="100" />
-  <img src="https://i.imgur.com/mdyW5q6.gif" width="100" />
-  <img src="https://i.imgur.com/mjhAU7Z.gif" width="100" />
-  <img src="https://i.imgur.com/wbMT5En.gif" width="100" />
-  <img src="https://i.imgur.com/DaKjIAu.gif" width="100" />
-  <img src="https://i.imgur.com/4h8zomo.gif" width="100" />
-</p>
+<h2 align="center">🖼️ My Vibe</h2>
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+
+  <img src="https://i.imgur.com/tOGzVVT.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #7aa2f7; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/Z1F0y4N.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #bb9af7; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/vJP1f0g.png" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #9ece6a; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/0zjKcyq.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #f7768e; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/h5FY1Jf.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #7dcfff; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/mdyW5q6.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #7aa2f7; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/mjhAU7Z.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #bb9af7; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/wbMT5En.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #9ece6a; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/DaKjIAu.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #f7768e; border: 2px solid #1a1b26;" />
+  <img src="https://i.imgur.com/4h8zomo.gif" width="130" style="border-radius: 10px; box-shadow: 0 0 10px #7dcfff; border: 2px solid #1a1b26;" />
+
+</div>
 
 ---
 
