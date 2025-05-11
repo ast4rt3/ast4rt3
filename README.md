@@ -11,7 +11,7 @@
   <img src="https://allthepics.net/image/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize.34hn1" width="900" style="border-radius: 10px; box-shadow: 0 0 10px #7aa2f7; border: 2px solid #1a1b26;" />
   <img src="https://i.postimg.cc/Qdysd5DG/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif" width="900" style="border-radius: 10px; box-shadow: 0 0 10px #7aa2f7; border: 2px solid #1a1b26;" />
 </p>
-<img src="https://i.postimg.cc/Qdysd5DG/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif" width="900" style="border-radius: 10px; box-shadow: 0 0 10px #7aa2f7; border: 2px solid #1a1b26;" />
+<img src="https://postimg.cc/mPCKdPh8" width="900" style="border-radius: 10px; box-shadow: 0 0 10px #7aa2f7; border: 2px solid #1a1b26;" />
 ---
 
 <h2 align="center">🖼️ My Vibe</h2>
