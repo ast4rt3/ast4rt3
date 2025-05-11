@@ -5,12 +5,9 @@
 <p align="center"><strong><code>IT Student | Developer | Tester</code></strong></p>
 
 ---
-
-### 🧠 About Me
-- 🎓 Information Technology student  
-- 🔧 I do a lot experimenting  
-- 🧪 Tester by logic  
-- 🕹️ Also into reverse engineering and modding  
+<p align="center">
+  <img src="https://i.imgur.com/xaMFE0o.png" width="900" />
+</p>
 
 ---
 
