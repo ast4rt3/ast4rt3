@@ -5,10 +5,8 @@
 <p align="center"><strong><code>IT Student | Developer | Tester</code></strong></p>
 
 ---
-<p align="center">
-  <img src="https://postimg.cc/mPCKdPh8" width="900" />
-</p>
-<a href='https://postimg.cc/mPCKdPh8' target='_blank'><img src='https://i.postimg.cc/mPCKdPh8/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif' border='0' alt='Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner'/></a>
+
+<a href='https://postimg.cc/mPCKdPh8' target='_blank'><img src='https://i.postimg.cc/mPCKdPh8/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif' border='0' width=900 alt='Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner'/></a>
 
 ---
 
