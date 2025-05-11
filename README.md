@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/JrSNY4F.png" width="900" height="100" />
+  <img src="https://i.imgur.com/JrSNY4F.png" width="500" />
 </p>
 
 ---
