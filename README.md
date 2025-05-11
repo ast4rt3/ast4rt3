@@ -6,12 +6,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://i.imgur.com/Ho5o3yG.png" width="900" />
-</p>
-
----
-
 ### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple" />
