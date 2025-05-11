@@ -6,9 +6,9 @@
 
 ---
 <p align="center">
-  <img src="https://i.imgur.com/xaMFE0o.png" width="900" />
+  <img src="https://postimg.cc/mPCKdPh8" width="900" />
 </p>
-[![Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif](https://i.postimg.cc/Qdysd5DG/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif)](https://postimg.cc/mPCKdPh8)
+
 ---
 
 <h2 align="center">🖼️ My Vibe</h2>
