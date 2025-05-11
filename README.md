@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/ExsKAK6.png" width="350" />
+  <img src="https://i.imgur.com/ExsKAK6.png" width="600" />
 </p>
 
 <p align="center"><strong><code>IT Student | Developer | Tester</code></strong></p>
