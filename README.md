@@ -6,7 +6,10 @@
 
 ---
 
-### 📊 GitHub Stats
+<p align="center">
+  <img src="https://i.imgur.com/MQKE7l6.png" width="900" />
+</p>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=midnight-purple&background=0d1117" />
