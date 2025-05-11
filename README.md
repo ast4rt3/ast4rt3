@@ -8,24 +8,7 @@
 <p align="center">
   <img src="https://postimg.cc/mPCKdPh8" width="900" />
 </p>
-Link:
-https://postimg.cc/mPCKdPh8
-Direct link:
-https://i.postimg.cc/Qdysd5DG/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif
- Markdown:
-[Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif](https://postimg.cc/mPCKdPh8)
-  Markdown:
-[![Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif](https://i.postimg.cc/Qdysd5DG/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif)](https://postimg.cc/mPCKdPh8)
-Thumbnail for forums:
-[url=https://postimg.cc/mPCKdPh8][img]https://i.postimg.cc/mPCKdPh8/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif[/img][/url]
-Thumbnail for website:
 <a href='https://postimg.cc/mPCKdPh8' target='_blank'><img src='https://i.postimg.cc/mPCKdPh8/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif' border='0' alt='Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner'/></a>
-Hotlink for forums:
-[url=https://postimages.org/][img]https://i.postimg.cc/Qdysd5DG/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif[/img][/url]
-Hotlink for website:
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Qdysd5DG/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif' border='0' alt='Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner'/></a>
-Removal link:
-https://postimg.cc/delete/kzk96sQ2/5822416e
 
 ---
 
