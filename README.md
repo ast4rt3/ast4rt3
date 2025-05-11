@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/ExsKAK6.png" width="250" />
+  <img src="https://i.imgur.com/ExsKAK6.png" width="350" />
 </p>
 
 <p align="center"><strong><code>IT Student | Developer | Tester</code></strong></p>
@@ -47,8 +47,8 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=tokyo-night-purple" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyo-night-purple&background=0d1117" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=midnight-purple&background=0d1117" />
 </p>
 
 ---
