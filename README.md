@@ -7,8 +7,9 @@
 ---
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dbytj36mv/image/upload/f_auto,q_auto/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize_vs31oz.gif" width="1000" />
+  <img src="https://i.imgur.com/JC8t9eL.gif" width="900" />
 </p>
+
 
 ---
 
