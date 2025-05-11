@@ -7,9 +7,7 @@
 ---
 
 <p align="center">
-  <img src="https://allthepics.net/image/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize.34hn1" width="900" />
-  <img src="https://allthepics.net/image/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize.34hn1" width="900" style="border-radius: 10px; box-shadow: 0 0 10px #7aa2f7; border: 2px solid #1a1b26;" />
-  <img src="https://cdn.allthepics.net/images/2025/05/11/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize.gif" width="900" style="border-radius: 10px; box-shadow: 0 0 10px #7aa2f7; border: 2px solid #1a1b26;" />
+  <img src="https://cdn.allthepics.net/images/2025/05/11/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize.gif" />
 </p>
 
 ---
