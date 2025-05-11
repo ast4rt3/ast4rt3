@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-  <img src="https://cdn.allthepics.net/images/2025/05/11/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize.gif" />
+  <img src="https://res.cloudinary.com/dbytj36mv/image/upload/v1746984932/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize_vs31oz.gif" width="1000" />
 </p>
 
 ---
