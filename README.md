@@ -10,6 +10,14 @@
   <img src="https://i.imgur.com/JC8t9eL.gif" width="900" />
 </p>
 
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=midnight-purple&background=0d1117" />
+</p>
+
 
 ---
 
@@ -40,14 +48,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" height="30" alt="CSS"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="Java"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="Git"/>
-</p>
-
----
-
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=midnight-purple&background=0d1117" />
 </p>
 
 ---
