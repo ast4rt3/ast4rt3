@@ -2,7 +2,9 @@
   <img src="https://i.imgur.com/ExsKAK6.png" width="900" />
 </p>
 
-<p align="center"><strong><code>IT Student | Developer | Tester</code></strong></p>
+<p align="center">
+  <img src="https://i.imgur.com/JrSNY4F.png" width="900" />
+</p>
 
 ---
 
