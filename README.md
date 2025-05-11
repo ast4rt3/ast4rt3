@@ -6,7 +6,9 @@
 
 ---
 
-<a href='https://postimg.cc/mPCKdPh8' target='_blank'><img src='https://i.postimg.cc/mPCKdPh8/Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner.gif' border='0' width=900 alt='Purple-White-Black-Sci-fi-Punk-Gaming-You-Tube-Banner'/></a>
+<p align="center">
+  <img src="https://allthepics.net/image/PurpleWhiteBlackSci-fiPunkGamingYouTubeBanner-ezgif.com-optimize.34hn1" width="900" />
+</p>
 
 ---
 
