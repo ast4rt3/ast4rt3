@@ -1,14 +1,16 @@
-<h1 align="center">🥶 I'm Lawrence Heras</h1>
+<p align="center">
+  <img src="https://i.imgur.com/ExsKAK6.png" width="250" />
+</p>
 
 <p align="center"><strong><code>IT Student | Developer | Tester</code></strong></p>
 
 ---
 
 ### 🧠 About Me
-- 🎓 Information Technology student
-- 🔧 I do a lot experimenting
-- 🧪 Tester by logic
-- 🕹️ Also into reverse engineering and modding
+- 🎓 Information Technology student  
+- 🔧 I do a lot experimenting  
+- 🧪 Tester by logic  
+- 🕹️ Also into reverse engineering and modding  
 
 ---
 
@@ -45,8 +47,8 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=tokyonight" />
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=0d1117" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=tokyo-night-purple" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyo-night-purple&background=0d1117" />
 </p>
 
 ---
