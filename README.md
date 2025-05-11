@@ -4,7 +4,6 @@
   <img src="https://i.imgur.com/ftcutdO.png" width="900" />
 </p>
 
----
 
 <p align="center">
   <img src="https://i.imgur.com/MQKE7l6.png" width="900" />
