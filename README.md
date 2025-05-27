@@ -13,8 +13,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=midnight-purple&background=0d1117" />
 </p>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ast4rt3&show_icons=true&theme=onedark&locale=en&layout=compact" alt="ast4rt3" /></p>
-
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ast4rt3&show_icons=true&theme=tokyonight&title_color=000000&text_color=e100ff&bg_color=942e8c&hide_border=true&locale=en&layout=compact" alt="ast4rt3" /></p>
 ---
 
 <h2 align="center">🖼️ My Vibe</h2>
