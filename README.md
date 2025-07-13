@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://i.imgur.com/MQKE7l6.png" width="900" />
-</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple" />
