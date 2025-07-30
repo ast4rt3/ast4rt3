@@ -5,7 +5,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ast4rt3&show_icons=true&theme=synthwave&title_color=8c00ff&text_color=a600ff&bg_color=000000&hide_border=true&locale=en&layout=compact" alt="ast4rt3" />
 </p>
 
-
 ---
 
 ### 🧰 Languages and Tools
