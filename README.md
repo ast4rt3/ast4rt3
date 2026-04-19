@@ -1,3 +1,5 @@
+//streak
+
 <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" />
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple" />
