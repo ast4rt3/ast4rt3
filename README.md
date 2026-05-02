@@ -3,7 +3,7 @@
   <img src="terminal.svg?v=3" width="74%" alt="Terminal Initialization Sequence" />
 </p>
 
-<h1 align="center">ACCESS GRANTED</h1>
+<h1 align="center">I AM LAWRENCE HERAS</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/CLEARANCE-FULLSTACK_DEV-8c00ff?style=for-the-badge&logoColor=white" />
