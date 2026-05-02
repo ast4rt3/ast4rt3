@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250">
+  <style>
+    .txt { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #8c00ff; }
+    .prompt { fill: #a600ff; font-weight: bold; }
+    .sys { fill: #ffffff; font-weight: bold; }
+    .warn { fill: #ffbd2e; font-weight: bold; }
+    
+    /* Typing animations */
+    @keyframes slide1 {
+      0% { transform: translateX(0); animation-timing-function: steps(30, end); }
+      15%, 85% { transform: translateX(400px); }
+      86%, 100% { transform: translateX(0); }
+    }
+
+    @keyframes slide3 {
+      0%, 24.9% { transform: translateX(0); }
+      25% { transform: translateX(0); animation-timing-function: steps(30, end); }
+      40%, 85% { transform: translateX(400px); }
+      86%, 100% { transform: translateX(0); }
+    }
+
+    @keyframes slide5 {
+      0%, 49.9% { transform: translateX(0); }
+      50% { transform: translateX(0); animation-timing-function: steps(30, end); }
+      65%, 85% { transform: translateX(400px); }
+      86%, 100% { transform: translateX(0); }
+    }
+
+    /* Instant appearances */
+    @keyframes inst2 {
+      0%, 16.9% { opacity: 0; }
+      17%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+    @keyframes inst4 {
+      0%, 41.9% { opacity: 0; }
+      42%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+    @keyframes inst6 {
+      0%, 66.9% { opacity: 0; }
+      67%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+
+    /* Prompt appearances */
+    @keyframes prompt3 {
+      0%, 24.9% { opacity: 0; }
+      25%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+    @keyframes prompt5 {
+      0%, 49.9% { opacity: 0; }
+      50%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+
+    /* Sequence switching (30s total) */
+    @keyframes seq1 {
+      0%, 28.33% { opacity: 1; }
+      28.34%, 100% { opacity: 0; }
+    }
+    @keyframes seq2 {
+      0%, 33.32% { opacity: 0; }
+      33.33%, 61.66% { opacity: 1; }
+      61.67%, 100% { opacity: 0; }
+    }
+    @keyframes seq3 {
+      0%, 66.65% { opacity: 0; }
+      66.66%, 95.00% { opacity: 1; }
+      95.01%, 100% { opacity: 0; }
+    }
+
+    /* Apply internal 10s animations */
+    .cover1 { animation: slide1 10s infinite; }
+    .cover3 { animation: slide3 10s infinite; }
+    .cover5 { animation: slide5 10s infinite; }
+    
+    .line2 { animation: inst2 10s infinite; }
+    .line4 { animation: inst4 10s infinite; }
+    .line6 { animation: inst6 10s infinite; }
+    
+    .prompt3 { animation: prompt3 10s infinite; }
+    .prompt5 { animation: prompt5 10s infinite; }
+    
+    /* Apply sequence 30s animations */
+    .seq1 { animation: seq1 30s infinite; }
+    .seq2 { animation: seq2 30s infinite; }
+    .seq3 { animation: seq3 30s infinite; }
+  </style>
+
+  <!-- Background with subtle border -->
+  <rect width="600" height="250" fill="#111111" rx="5" stroke="#333333" stroke-width="2" />
+
+  <!-- Sequence 1 -->
+  <g class="seq1">
+    <g transform="translate(20, 40)">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">fetch_data --repos</text>
+      <rect class="cover1" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 70)">
+      <text class="txt line2"><tspan class="sys">[OK]</tspan> 34 repositories successfully located.</text>
+    </g>
+    <g transform="translate(20, 110)" class="prompt3">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">fetch_data --commits</text>
+      <rect class="cover3" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 140)">
+      <text class="txt line4"><tspan class="sys">[OK]</tspan> 1,340 commits verified.</text>
+    </g>
+    <g transform="translate(20, 180)" class="prompt5">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">init_protocols</text>
+      <rect class="cover5" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 210)">
+      <text class="txt line6"><tspan class="sys">[OK]</tspan> System protocols active. Access granted.</text>
+    </g>
+  </g>
+
+  <!-- Sequence 2 -->
+  <g class="seq2">
+    <g transform="translate(20, 40)">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">ping node.ast4rt3.net</text>
+      <rect class="cover1" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 70)">
+      <text class="txt line2"><tspan class="sys">[OK]</tspan> 0% packet loss. Latency: 12ms.</text>
+    </g>
+    <g transform="translate(20, 110)" class="prompt3">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">analyze_stack --modules</text>
+      <rect class="cover3" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 140)">
+      <text class="txt line4"><tspan class="sys">[OK]</tspan> React, Bash, Java engines nominal.</text>
+    </g>
+    <g transform="translate(20, 180)" class="prompt5">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">deploy_update -f</text>
+      <rect class="cover5" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 210)">
+      <text class="txt line6"><tspan class="sys">[OK]</tspan> Subsystems updated successfully.</text>
+    </g>
+  </g>
+
+  <!-- Sequence 3 -->
+  <g class="seq3">
+    <g transform="translate(20, 40)">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">scan_threats --deep</text>
+      <rect class="cover1" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 70)">
+      <text class="txt line2"><tspan class="warn">[WARN]</tspan> 1 unauthorized observer detected.</text>
+    </g>
+    <g transform="translate(20, 110)" class="prompt3">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">trace_observer</text>
+      <rect class="cover3" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 140)">
+      <text class="txt line4"><tspan class="sys">[OK]</tspan> Target acquired. Rerouting traffic...</text>
+    </g>
+    <g transform="translate(20, 180)" class="prompt5">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">establish_uplink</text>
+      <rect class="cover5" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 210)">
+      <text class="txt line6"><tspan class="sys">[OK]</tspan> Secure connection maintained.</text>
+    </g>
+  </g>
+</svg>
