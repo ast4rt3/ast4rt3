@@ -112,11 +112,11 @@
     </g>
     <g transform="translate(20, 180)" class="prompt5">
       <text class="txt prompt">ast4rt3@mainframe:~$</text>
-      <text class="txt" x="180">init_protocols</text>
+      <text class="txt" x="180">count_observers</text>
       <rect class="cover5" x="180" y="-12" width="400" height="18" fill="#111111" />
     </g>
     <g transform="translate(20, 210)">
-      <text class="txt line6"><tspan class="sys">[OK]</tspan> System protocols active. Access granted.</text>
+      <text class="txt line6"><tspan class="sys">[OK]</tspan> 1,402 observers detected.</text>
     </g>
   </g>
 

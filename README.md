@@ -1,9 +1,11 @@
+<h1 align="center">
+  <img src="header.svg?v=1" width="600" alt="I AM LAWRENCE HERAS" />
+</h1>
+
 <p align="center">
   <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" width="24%" />
-  <img src="terminal.svg?v=3" width="74%" alt="Terminal Initialization Sequence" />
+  <img src="terminal.svg?v=4" width="74%" alt="Terminal Initialization Sequence" />
 </p>
-
-<h1 align="center">I AM LAWRENCE HERAS</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/MONEY-BROKE-8c00ff?style=for-the-badge&logoColor=white" />
