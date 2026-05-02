@@ -6,7 +6,7 @@
 <h1 align="center">I AM LAWRENCE HERAS</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CLEARANCE-FULLSTACK_DEV-8c00ff?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/MONEY-BROKE-8c00ff?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/DEPRESSION-CREATIVE_GOONER-000000?style=for-the-badge&logoColor=8c00ff" />
 </p>
 
