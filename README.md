@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="console.svg?v=12" width="100%" alt="System Console Dashboard" />
+  <img src="console.svg?v=17" width="100%" alt="System Console Dashboard" />
 </p>
 
 <p align="center">
@@ -27,13 +27,9 @@
 ### [ STREAK 🔥🥵💯 ]
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple&hide_border=true" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=000000&fire=a600ff&ring=a600ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" width="48%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ast4rt3&show_icons=true&theme=synthwave&title_color=8c00ff&text_color=a600ff&bg_color=000000&hide_border=true&locale=en&layout=compact" width="70%" />
-</p>
 
 <p align="center">
   <img src="divider.svg" width="100%" />
