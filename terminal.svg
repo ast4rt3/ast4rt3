@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250">
+  <style>
+    .txt { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #8c00ff; }
+    .prompt { fill: #a600ff; font-weight: bold; }
+    .sys { fill: #ffffff; font-weight: bold; }
+    .warn { fill: #ffbd2e; font-weight: bold; }
+    .err { fill: #ff3c3c; font-weight: bold; }
+    .bar { fill: #00e5ff; font-weight: bold; }
+    .pct { fill: #ffffff; }
+    
+    /* Typing animations */
+    @keyframes slide1 {
+      0% { transform: translateX(0); animation-timing-function: steps(30, end); }
+      15%, 85% { transform: translateX(400px); }
+      86%, 100% { transform: translateX(0); }
+    }
+
+    @keyframes slide3 {
+      0%, 24.9% { transform: translateX(0); }
+      25% { transform: translateX(0); animation-timing-function: steps(30, end); }
+      40%, 85% { transform: translateX(400px); }
+      86%, 100% { transform: translateX(0); }
+    }
+
+    @keyframes slide5 {
+      0%, 49.9% { transform: translateX(0); }
+      50% { transform: translateX(0); animation-timing-function: steps(30, end); }
+      65%, 85% { transform: translateX(400px); }
+      86%, 100% { transform: translateX(0); }
+    }
+
+    /* Instant appearances */
+    @keyframes inst2 {
+      0%, 16.9% { opacity: 0; }
+      17%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+    @keyframes inst4 {
+      0%, 41.9% { opacity: 0; }
+      42%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+    @keyframes inst6 {
+      0%, 66.9% { opacity: 0; }
+      67%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+
+    /* Error flood cascade — each line staggers 0.5s apart */
+    @keyframes err1 { 0%,16.9%{opacity:0;} 17%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes err2 { 0%,20.9%{opacity:0;} 21%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes err3 { 0%,24.9%{opacity:0;} 25%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes err4 { 0%,28.9%{opacity:0;} 29%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes err5 { 0%,32.9%{opacity:0;} 33%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes err6 { 0%,36.9%{opacity:0;} 37%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes err7 { 0%,40.9%{opacity:0;} 41%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+
+    /* Prompt appearances */
+    @keyframes prompt3 {
+      0%, 24.9% { opacity: 0; }
+      25%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+    @keyframes prompt5 {
+      0%, 49.9% { opacity: 0; }
+      50%, 85% { opacity: 1; }
+      85.1%, 100% { opacity: 0; }
+    }
+    
+    /* Download progress stagger */
+    @keyframes dl1 { 0%,16.9%{opacity:0;} 17%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes dl2 { 0%,24.9%{opacity:0;} 25%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes dl3 { 0%,34.9%{opacity:0;} 35%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes dl4 { 0%,44.9%{opacity:0;} 45%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes dl5 { 0%,54.9%{opacity:0;} 55%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes dl6 { 0%,64.9%{opacity:0;} 65%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+    @keyframes dl7 { 0%,74.9%{opacity:0;} 75%,85%{opacity:1;} 85.1%,100%{opacity:0;} }
+
+    /* Sequence switching (50s total — 5 sequences x 10s each) */
+    @keyframes seq1 {
+      0%, 19.9% { opacity: 1; }
+      20%, 100% { opacity: 0; }
+    }
+    @keyframes seq2 {
+      0%, 19.9% { opacity: 0; }
+      20%, 39.9% { opacity: 1; }
+      40%, 100% { opacity: 0; }
+    }
+    @keyframes seq3 {
+      0%, 39.9% { opacity: 0; }
+      40%, 59.9% { opacity: 1; }
+      60%, 100% { opacity: 0; }
+    }
+    @keyframes seq4 {
+      0%, 59.9% { opacity: 0; }
+      60%, 79.9% { opacity: 1; }
+      80%, 100% { opacity: 0; }
+    }
+    @keyframes seq5 {
+      0%, 79.9% { opacity: 0; }
+      80%, 99.9% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    /* Apply internal 10s animations */
+    .cover1 { animation: slide1 10s infinite; }
+    .cover3 { animation: slide3 10s infinite; }
+    .cover5 { animation: slide5 10s infinite; }
+    
+    .line2 { animation: inst2 10s infinite; }
+    .line4 { animation: inst4 10s infinite; }
+    .line6 { animation: inst6 10s infinite; }
+
+    .err1 { animation: err1 10s infinite; }
+    .err2 { animation: err2 10s infinite; }
+    .err3 { animation: err3 10s infinite; }
+    .err4 { animation: err4 10s infinite; }
+    .err5 { animation: err5 10s infinite; }
+    .err6 { animation: err6 10s infinite; }
+    .err7 { animation: err7 10s infinite; }
+
+    .dl1 { animation: dl1 10s infinite; }
+    .dl2 { animation: dl2 10s infinite; }
+    .dl3 { animation: dl3 10s infinite; }
+    .dl4 { animation: dl4 10s infinite; }
+    .dl5 { animation: dl5 10s infinite; }
+    .dl6 { animation: dl6 10s infinite; }
+    .dl7 { animation: dl7 10s infinite; }
+    
+    .prompt3 { animation: prompt3 10s infinite; }
+    .prompt5 { animation: prompt5 10s infinite; }
+    
+    /* Apply sequence 50s animations */
+    .seq1 { animation: seq1 50s infinite; }
+    .seq2 { animation: seq2 50s infinite; }
+    .seq3 { animation: seq3 50s infinite; }
+    .seq4 { animation: seq4 50s infinite; }
+    .seq5 { animation: seq5 50s infinite; }
+  </style>
+
+  <!-- Background with subtle border -->
+  <rect width="600" height="250" fill="#111111" rx="5" stroke="#333333" stroke-width="2" />
+
+  <!-- Sequence 1 -->
+  <g class="seq1">
+    <g transform="translate(20, 40)">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">fetch_data --repos</text>
+      <rect class="cover1" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 70)">
+      <text class="txt line2"><tspan class="sys">[OK]</tspan> 34 repositories successfully located.</text>
+    </g>
+    <g transform="translate(20, 110)" class="prompt3">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">fetch_data --commits</text>
+      <rect class="cover3" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 140)">
+      <text class="txt line4"><tspan class="sys">[OK]</tspan> 1,340 commits verified.</text>
+    </g>
+    <g transform="translate(20, 180)" class="prompt5">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">count_observers</text>
+      <rect class="cover5" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 210)">
+      <text class="txt line6"><tspan class="sys">[OK]</tspan> 1,402 observers detected.</text>
+    </g>
+  </g>
+
+  <!-- Sequence 2 -->
+  <g class="seq2">
+    <g transform="translate(20, 40)">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">ping node.ast4rt3.net</text>
+      <rect class="cover1" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 70)">
+      <text class="txt line2"><tspan class="sys">[OK]</tspan> 0% packet loss. Latency: 12ms.</text>
+    </g>
+    <g transform="translate(20, 110)" class="prompt3">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">analyze_stack --modules</text>
+      <rect class="cover3" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 140)">
+      <text class="txt line4"><tspan class="sys">[OK]</tspan> React, Bash, Java engines nominal.</text>
+    </g>
+    <g transform="translate(20, 180)" class="prompt5">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">deploy_update -f</text>
+      <rect class="cover5" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 210)">
+      <text class="txt line6"><tspan class="sys">[OK]</tspan> Subsystems updated successfully.</text>
+    </g>
+  </g>
+
+  <!-- Sequence 3 -->
+  <g class="seq3">
+    <g transform="translate(20, 40)">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">scan_threats --deep</text>
+      <rect class="cover1" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 70)">
+      <text class="txt line2"><tspan class="warn">[WARN]</tspan> 1 unauthorized observer detected.</text>
+    </g>
+    <g transform="translate(20, 110)" class="prompt3">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">trace_observer</text>
+      <rect class="cover3" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 140)">
+      <text class="txt line4"><tspan class="sys">[OK]</tspan> Target acquired. Rerouting traffic...</text>
+    </g>
+    <g transform="translate(20, 180)" class="prompt5">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">establish_uplink</text>
+      <rect class="cover5" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 210)">
+      <text class="txt line6"><tspan class="sys">[OK]</tspan> Secure connection maintained.</text>
+    </g>
+  </g>
+
+  <!-- Sequence 4: Error Flood -->
+  <g class="seq4">
+    <g transform="translate(20, 25)">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">run_diagnostics --full</text>
+      <rect class="cover1" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 55)">
+      <text class="txt err1"><tspan class="err">[ERR]</tspan> 0x4F2A: Memory integrity check failed.</text>
+    </g>
+    <g transform="translate(20, 78)">
+      <text class="txt err2"><tspan class="err">[ERR]</tspan> 0x8B1C: Null reference at core_handler.exe</text>
+    </g>
+    <g transform="translate(20, 101)">
+      <text class="txt err3"><tspan class="err">[ERR]</tspan> 0xDEAD: Segmentation fault — stack overflow.</text>
+    </g>
+    <g transform="translate(20, 124)">
+      <text class="txt err4"><tspan class="err">[ERR]</tspan> 0x0013: Access violation. Sector 7G locked.</text>
+    </g>
+    <g transform="translate(20, 147)">
+      <text class="txt err5"><tspan class="err">[ERR]</tspan> 0xFFFF: Cascade failure in subsystem [AUTH].</text>
+    </g>
+    <g transform="translate(20, 170)">
+      <text class="txt err6"><tspan class="warn">[WARN]</tspan> Too many errors. Halting diagnostics...</text>
+    </g>
+    <g transform="translate(20, 200)">
+      <text class="txt err7"><tspan class="sys">[OK]</tspan> Core dump saved to /var/log/ast4rt3.log</text>
+    </g>
+  </g>
+
+  <!-- Sequence 5: Download / Update Progress -->
+  <g class="seq5">
+    <g transform="translate(20, 25)">
+      <text class="txt prompt">ast4rt3@mainframe:~$</text>
+      <text class="txt" x="180">install_pkg --core-libs</text>
+      <rect class="cover1" x="180" y="-12" width="400" height="18" fill="#111111" />
+    </g>
+    <g transform="translate(20, 52)">
+      <text class="txt dl1"><tspan class="warn">[INFO]</tspan> Fetching package manifest...</text>
+    </g>
+    <g transform="translate(20, 76)">
+      <text class="txt dl2"><tspan class="bar">[=&gt;        ]</tspan><tspan class="pct">  20%  </tspan>core.lib</text>
+    </g>
+    <g transform="translate(20, 100)">
+      <text class="txt dl3"><tspan class="bar">[===&gt;      ]</tspan><tspan class="pct">  40%  </tspan>auth.lib</text>
+    </g>
+    <g transform="translate(20, 124)">
+      <text class="txt dl4"><tspan class="bar">[=====&gt;    ]</tspan><tspan class="pct">  60%  </tspan>crypto.lib</text>
+    </g>
+    <g transform="translate(20, 148)">
+      <text class="txt dl5"><tspan class="bar">[======&gt;   ]</tspan><tspan class="pct">  80%  </tspan>ui.lib</text>
+    </g>
+    <g transform="translate(20, 172)">
+      <text class="txt dl6"><tspan class="bar">[==========]</tspan><tspan class="pct"> 100%  </tspan>DONE</text>
+    </g>
+    <g transform="translate(20, 205)">
+      <text class="txt dl7"><tspan class="sys">[OK]</tspan> 5 packages installed. Runtime ready.</text>
+    </g>
+  </g>
+</svg>
