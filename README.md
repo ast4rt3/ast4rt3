@@ -16,7 +16,9 @@
   <i>I have a crippling impostor syndrome...</i>
 </p>
 
----
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
 
 ### [ DATA TELEMETRY ]
 
@@ -29,7 +31,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ast4rt3&show_icons=true&theme=synthwave&title_color=8c00ff&text_color=a600ff&bg_color=000000&hide_border=true&locale=en&layout=compact" width="70%" />
 </p>
 
----
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
 
 ### [ SYSTEM PROTOCOLS ]
 
@@ -43,7 +47,9 @@
   <img src="https://img.shields.io/badge/GAS-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
----
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
 
 ### [ ESTABLISH UPLINK ]
 
