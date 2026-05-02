@@ -1,20 +1,17 @@
 <p align="center">
-  <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" width="200" />
-</p>
-
-<p align="center">
-  <img src="terminal.svg?v=3" width="600" alt="Terminal Initialization Sequence" />
+  <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" width="24%" />
+  <img src="terminal.svg?v=3" width="74%" alt="Terminal Initialization Sequence" />
 </p>
 
 <h1 align="center">ACCESS GRANTED</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/CLEARANCE-FULLSTACK_DEV-8c00ff?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/DESIGNATION-CREATIVE_CODER-000000?style=for-the-badge&logoColor=8c00ff" />
+  <img src="https://img.shields.io/badge/DEPRESSION-CREATIVE_GOONER-000000?style=for-the-badge&logoColor=8c00ff" />
 </p>
 
 <p align="center">
-  <i>Decrypting anomalies. Engineering reality. Stand by...</i>
+  <i>I have a crippling impostor syndrome...</i>
 </p>
 
 ---
@@ -22,12 +19,12 @@
 ### [ DATA TELEMETRY ]
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&bg_color=000000&title_color=a600ff&text_color=ffffff&icon_color=a600ff&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple&hide_border=true" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=000000&fire=a600ff&ring=a600ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ast4rt3&show_icons=true&bg_color=000000&title_color=a600ff&text_color=ffffff&icon_color=a600ff&hide_border=true&layout=compact" width="70%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ast4rt3&show_icons=true&theme=synthwave&title_color=8c00ff&text_color=a600ff&bg_color=000000&hide_border=true&locale=en&layout=compact" width="70%" />
 </p>
 
 ---
