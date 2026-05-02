@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.svg?v=13" width="100%" alt="I AM LAWRENCE HERAS" />
+  <img src="header.svg?v=14" width="100%" alt="I AM LAWRENCE HERAS" />
 </p>
 
 <p align="center">
@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <img src="console.svg?v=2" width="100%" alt="System Console Dashboard" />
+  <img src="console.svg?v=3" width="100%" alt="System Console Dashboard" />
 </p>
 
 <p align="center">
-  <img src="music.svg?v=1" alt="MUSIC ON" />
+  <img src="music.svg?v=2" alt="MUSIC ON" />
   <img src="https://img.shields.io/badge/JERK-OFF-cc0000?style=for-the-badge&logoColor=8c00ff" />
 </p>
 
