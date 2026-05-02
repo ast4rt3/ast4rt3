@@ -12,8 +12,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MONEY-BROKE-8c00ff?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/DEPRESSION-CREATIVE_GOONER-000000?style=for-the-badge&logoColor=8c00ff" />
+  <img src="music.svg?v=1" alt="MUSIC ON" />
+  <img src="https://img.shields.io/badge/JERK-OFF-cc0000?style=for-the-badge&logoColor=8c00ff" />
 </p>
 
 <p align="center">
