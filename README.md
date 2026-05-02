@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="console.svg?v=3" width="100%" alt="System Console Dashboard" />
+  <img src="console.svg?v=12" width="100%" alt="System Console Dashboard" />
 </p>
 
 <p align="center">
