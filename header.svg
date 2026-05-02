@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120">
   <style>
     .title {
       font-family: 'Courier New', Courier, monospace;
@@ -6,46 +6,170 @@
       font-weight: bold;
       text-anchor: middle;
       dominant-baseline: middle;
+      fill: #8c00ff;
     }
-    .base { fill: #8c00ff; }
-    .glitch-r { fill: #ff0055; opacity: 0; animation: glitch-r 4s infinite; }
-    .glitch-b { fill: #00f0ff; opacity: 0; animation: glitch-b 4s infinite; }
 
-    /* RGB Split Glitch Effect */
+    /* 9s total loop — events at 15%, 48%, 80% */
+    .base { animation: base-hide 9s infinite; }
+
+    /* EVENT 1 (15%): Slice + Echo */
+    .sl-1 { clip-path: inset(0 0 75% 0);   opacity:0; animation: sl-1 9s infinite; }
+    .sl-2 { clip-path: inset(25% 0 50% 0); opacity:0; animation: sl-2 9s infinite; }
+    .sl-3 { clip-path: inset(50% 0 25% 0); opacity:0; animation: sl-3 9s infinite; }
+    .sl-4 { clip-path: inset(75% 0 0 0);   opacity:0; animation: sl-4 9s infinite; }
+    .ec-t1 { opacity:0; animation: ec-t1 9s infinite; }
+    .ec-t2 { opacity:0; animation: ec-t2 9s infinite; }
+    .ec-b1 { opacity:0; animation: ec-b1 9s infinite; }
+    .ec-b2 { opacity:0; animation: ec-b2 9s infinite; }
+
+    /* EVENT 2 (48%): Shockwave + glitch slices */
+    .sw-l   { opacity:0; animation: sw-l  9s infinite; }
+    .sw-r   { opacity:0; animation: sw-r  9s infinite; }
+    .sw-l2  { opacity:0; animation: sw-l2 9s infinite; }
+    .sw-r2  { opacity:0; animation: sw-r2 9s infinite; }
+    .sw-sl1 { clip-path: inset(10% 0 60% 0); opacity:0; animation: sw-sl1 9s infinite; }
+    .sw-sl2 { clip-path: inset(55% 0 10% 0); opacity:0; animation: sw-sl2 9s infinite; }
+
+    /* EVENT 3 (80%): OG RGB split — ultrafast */
+    .glitch-r { fill: #ff0055; opacity:0; animation: glitch-r 9s infinite; }
+    .glitch-b { fill: #00f0ff; opacity:0; animation: glitch-b 9s infinite; }
+
+    /* Base hides during all three bursts */
+    @keyframes base-hide {
+      0%,    14%    { opacity:1; }
+      15%,   15.3%  { opacity:0; }  /* event 1 — single frame snap */
+      15.4%, 47%    { opacity:1; }
+      48%,   49%    { opacity:0; }  /* event 2 — snap shockwave */
+      49.1%, 79%    { opacity:1; }
+      80%           { opacity:.4; } /* event 3 flicker */
+      81%           { opacity:1; }
+      82%           { opacity:.2; }
+      83%, 100%     { opacity:1; }
+    }
+
+    /* ── EVENT 1 (15%–15.3%, ~0.027s) SINGLE FRAME SNAP ── */
+    @keyframes sl-1 {
+      0%,14.9%  { opacity:0; transform:translate(0); }
+      15%       { opacity:1; transform:translate(-22px,0); }
+      15.3%,100%{ opacity:0; transform:translate(0); }
+    }
+    @keyframes sl-2 {
+      0%,14.9%  { opacity:0; transform:translate(0); }
+      15%       { opacity:1; transform:translate( 20px,0); }
+      15.3%,100%{ opacity:0; transform:translate(0); }
+    }
+    @keyframes sl-3 {
+      0%,14.9%  { opacity:0; transform:translate(0); }
+      15%       { opacity:1; transform:translate(-26px,0); }
+      15.3%,100%{ opacity:0; transform:translate(0); }
+    }
+    @keyframes sl-4 {
+      0%,14.9%  { opacity:0; transform:translate(0); }
+      15%       { opacity:1; transform:translate( 22px,0); }
+      15.3%,100%{ opacity:0; transform:translate(0); }
+    }
+    @keyframes ec-t1 {
+      0%,14.9%  { opacity:0; transform:translate(0,0) scale(1); }
+      15%       { opacity:.6; transform:translate(0,-28px) scale(.82); }
+      15.3%,100%{ opacity:0; transform:translate(0,0) scale(1); }
+    }
+    @keyframes ec-t2 {
+      0%,15.05% { opacity:0; transform:translate(0,0) scale(1); }
+      15.1%     { opacity:.25; transform:translate(0,-52px) scale(.65); }
+      15.3%,100%{ opacity:0; transform:translate(0,0) scale(1); }
+    }
+    @keyframes ec-b1 {
+      0%,14.9%  { opacity:0; transform:translate(0,0) scale(1); }
+      15%       { opacity:.6; transform:translate(0, 28px) scale(.82); }
+      15.3%,100%{ opacity:0; transform:translate(0,0) scale(1); }
+    }
+    @keyframes ec-b2 {
+      0%,15.05% { opacity:0; transform:translate(0,0) scale(1); }
+      15.1%     { opacity:.25; transform:translate(0, 52px) scale(.65); }
+      15.3%,100%{ opacity:0; transform:translate(0,0) scale(1); }
+    }
+
+    /* ── EVENT 2 (48%–49%, ~0.09s) SNAP SHOCKWAVE ─────── */
+    @keyframes sw-l {
+      0%,47.9%{ opacity:0; transform:translateX(0); }
+      48%     { opacity:.9; transform:translateX(0); }
+      48.6%   { opacity:.4; transform:translateX(-50px); }
+      49%,100%{ opacity:0;  transform:translateX(-70px); }
+    }
+    @keyframes sw-r {
+      0%,47.9%{ opacity:0; transform:translateX(0); }
+      48%     { opacity:.9; transform:translateX(0); }
+      48.6%   { opacity:.4; transform:translateX( 50px); }
+      49%,100%{ opacity:0;  transform:translateX( 70px); }
+    }
+    @keyframes sw-l2 {
+      0%,48.1%{ opacity:0; transform:translateX(0); }
+      48.2%   { opacity:.4; transform:translateX(0); }
+      48.8%   { opacity:.1; transform:translateX(-100px); }
+      49%,100%{ opacity:0;  transform:translateX(-120px); }
+    }
+    @keyframes sw-r2 {
+      0%,48.1%{ opacity:0; transform:translateX(0); }
+      48.2%   { opacity:.4; transform:translateX(0); }
+      48.8%   { opacity:.1; transform:translateX( 100px); }
+      49%,100%{ opacity:0;  transform:translateX( 120px); }
+    }
+    @keyframes sw-sl1 {
+      0%,47.9%{ opacity:0; transform:translate(0); }
+      48%     { opacity:1;  transform:translate(-28px,0); }
+      48.5%   { opacity:1;  transform:translate( 18px,0); }
+      49%,100%{ opacity:0;  transform:translate(0); }
+    }
+    @keyframes sw-sl2 {
+      0%,47.9%{ opacity:0; transform:translate(0); }
+      48%     { opacity:1;  transform:translate( 24px,0); }
+      48.5%   { opacity:1;  transform:translate(-16px,0); }
+      49%,100%{ opacity:0;  transform:translate(0); }
+    }
+
+    /* ── EVENT 3 (80%–83%, ~0.27s) ULTRAFAST RGB ────────── */
     @keyframes glitch-r {
-      0%, 92% { opacity: 0; transform: translate(0, 0); }
-      93% { opacity: 0.7; transform: translate(-4px, 2px); }
-      95% { opacity: 0.7; transform: translate(3px, -2px); }
-      97% { opacity: 0.7; transform: translate(-2px, 0px); }
-      99% { opacity: 0; transform: translate(0, 0); }
+      0%,79.9%{ opacity:0; transform:translate(0,0); }
+      80%     { opacity:.8; transform:translate(-5px, 2px); }
+      81%     { opacity:.8; transform:translate( 4px,-2px); }
+      82%     { opacity:.8; transform:translate(-3px, 1px); }
+      83%,100%{ opacity:0;  transform:translate(0,0); }
     }
     @keyframes glitch-b {
-      0%, 92% { opacity: 0; transform: translate(0, 0); }
-      93% { opacity: 0.7; transform: translate(4px, -2px); }
-      95% { opacity: 0.7; transform: translate(-3px, 2px); }
-      97% { opacity: 0.7; transform: translate(2px, 0px); }
-      99% { opacity: 0; transform: translate(0, 0); }
+      0%,79.9%{ opacity:0; transform:translate(0,0); }
+      80%     { opacity:.8; transform:translate( 5px,-2px); }
+      81%     { opacity:.8; transform:translate(-4px, 2px); }
+      82%     { opacity:.8; transform:translate( 3px,-1px); }
+      83%,100%{ opacity:0;  transform:translate(0,0); }
     }
-
-    /* System Flicker Effect */
-    @keyframes flicker {
-      0%, 90% { opacity: 1; }
-      91% { opacity: 0.5; }
-      93% { opacity: 1; }
-      95% { opacity: 0.3; }
-      97% { opacity: 1; }
-    }
-    .base { animation: flicker 4s infinite; }
   </style>
 
-  <!-- Transparent Background -->
-  <rect width="600" height="80" fill="transparent" />
+  <rect width="600" height="120" fill="transparent" />
 
-  <g transform="translate(300, 40)">
-    <!-- Glitch Layers -->
+  <g transform="translate(300, 60)">
+    <!-- Event 3: RGB -->
     <text class="title glitch-r">I AM LAWRENCE HERAS</text>
     <text class="title glitch-b">I AM LAWRENCE HERAS</text>
-    <!-- Main Layer -->
+
+    <!-- Event 2: Shockwave -->
+    <text class="title sw-l2">I AM LAWRENCE HERAS</text>
+    <text class="title sw-r2">I AM LAWRENCE HERAS</text>
+    <text class="title sw-l">I AM LAWRENCE HERAS</text>
+    <text class="title sw-r">I AM LAWRENCE HERAS</text>
+    <text class="title sw-sl1">I AM LAWRENCE HERAS</text>
+    <text class="title sw-sl2">I AM LAWRENCE HERAS</text>
+
+    <!-- Event 1: Echo + Slices -->
+    <text class="title ec-t2">I AM LAWRENCE HERAS</text>
+    <text class="title ec-t1">I AM LAWRENCE HERAS</text>
+    <text class="title ec-b1">I AM LAWRENCE HERAS</text>
+    <text class="title ec-b2">I AM LAWRENCE HERAS</text>
+    <text class="title sl-1">I AM LAWRENCE HERAS</text>
+    <text class="title sl-2">I AM LAWRENCE HERAS</text>
+    <text class="title sl-3">I AM LAWRENCE HERAS</text>
+    <text class="title sl-4">I AM LAWRENCE HERAS</text>
+
+    <!-- Base -->
     <text class="title base">I AM LAWRENCE HERAS</text>
   </g>
 </svg>

@@ -1,6 +1,10 @@
-<h1 align="center">
-  <img src="header.svg?v=1" width="600" alt="I AM LAWRENCE HERAS" />
-</h1>
+<p align="center">
+  <img src="header.svg?v=11" width="600" alt="I AM LAWRENCE HERAS" />
+</p>
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" width="24%" />
