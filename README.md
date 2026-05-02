@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" width="24%" />
-  <img src="terminal.svg?v=4" width="74%" alt="Terminal Initialization Sequence" />
+  <img src="terminal.svg?v=6" width="74%" alt="Terminal Initialization Sequence" />
 </p>
 
 <p align="center">
