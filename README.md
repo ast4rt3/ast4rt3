@@ -1,9 +1,13 @@
 
 <p align="center">
+  <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" width="200" />
+</p>
+
+<p align="center">
   <img src="midnight_purple_banner_1777734027738.png" width="100%" />
 </p>
 
-<h1 align="center">Hi there, I'm ast4rt3 👋</h1>
+<h1 align="center">Hi there, I'm ast4rt3</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Fullstack%20Developer-8c00ff?style=for-the-badge&logoColor=white" />
@@ -16,7 +20,7 @@
 
 ---
 
-### 📊 My GitHub Stats
+### My GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple&bg_color=000000&title_color=a600ff&text_color=ffffff&icon_color=a600ff&hide_border=true" width="48%" />
@@ -29,7 +33,7 @@
 
 ---
 
-### 🧰 Tech Stack & Tools
+### Tech Stack & Tools
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
@@ -42,7 +46,7 @@
 
 ---
 
-### 🛰️ Connect With Me
+### Connect With Me
 
 <p align="center">
   <a href="https://github.com/ast4rt3?tab=repositories">
@@ -59,10 +63,4 @@
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ast4rt3&theme=midnight-purple" />
-</p>
-
-<br />
-
-<p align="center">
-  <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" width="200" />
 </p>
