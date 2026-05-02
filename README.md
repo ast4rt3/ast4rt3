@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.svg?v=11" width="600" alt="I AM LAWRENCE HERAS" />
+  <img src="header.svg?v=13" width="100%" alt="I AM LAWRENCE HERAS" />
 </p>
 
 <p align="center">
@@ -7,8 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media1.tenor.com/m/SEhMtEByHKwAAAAd/suffer-shout.gif" width="24%" />
-  <img src="terminal.svg?v=6" width="74%" alt="Terminal Initialization Sequence" />
+  <img src="console.svg?v=2" width="100%" alt="System Console Dashboard" />
 </p>
 
 <p align="center">
@@ -18,13 +17,14 @@
 
 <p align="center">
   <i>I have a crippling impostor syndrome...</i>
+  <i>and severe brainrot...</i>
 </p>
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
-### [ DATA TELEMETRY ]
+### [ STREAK 🔥🥵💯 ]
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&show_icons=true&theme=midnight-purple&hide_border=true" width="48%" />
@@ -39,7 +39,7 @@
   <img src="divider.svg" width="100%" />
 </p>
 
-### [ SYSTEM PROTOCOLS ]
+### [ USED SERVICES ]
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
@@ -55,7 +55,7 @@
   <img src="divider.svg" width="100%" />
 </p>
 
-### [ ESTABLISH UPLINK ]
+### [ LINKS ]
 
 <p align="center">
   <a href="https://github.com/ast4rt3?tab=repositories">
