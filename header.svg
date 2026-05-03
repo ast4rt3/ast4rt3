@@ -9,8 +9,7 @@
       fill: #8c00ff;
     }
 
-    /* Border: Left, Top, Right only. No Bottom. */
-    .frame-border { fill: #0a0a0a; stroke: #8c00ff; stroke-width: 2; }
+    .frame-bg { fill: #0a0a0a; stroke: #8c00ff; stroke-width: 2; }
     .title-txt { font-family: 'Courier New', monospace; font-size: 12px; fill: #8c00ff; font-weight: bold; }
     
     @keyframes frame-glitch {
@@ -60,8 +59,7 @@
   </style>
 
   <g class="glitch-frame">
-    <!-- Path instead of rect to allow open bottom -->
-    <path class="frame-border" d="M1 160 L1 4 Q1 1 4 1 L996 1 Q999 1 999 4 L999 160" fill="#0a0a0a" />
+    <rect class="frame-bg" width="1000" height="160" rx="4" />
     <text class="title-txt" x="15" y="18">AUTHORIZED_SESSION // IDENTITY: HERAS_L</text>
   </g>
 

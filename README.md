@@ -1,9 +1,6 @@
 <p align="center">
-  <img src="header.svg?v=20" width="100%" />
-  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/github-snake-dark.svg" width="100%" />
-  <img src="frame_bottom.svg" width="100%" />
+  <img src="header.svg?v=21" width="100%" alt="I AM LAWRENCE HERAS" />
 </p>
-
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
@@ -19,6 +16,10 @@
 
 <p align="center">
   <img src="bio.svg" width="100%" alt="Bio" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/github-snake-dark.svg" width="100%" alt="GitHub Snake" />
 </p>
 
 <p align="center">
