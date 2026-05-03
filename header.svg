@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160" viewBox="0 0 1000 160">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
   <style>
     .title {
       font-family: 'Courier New', Courier, monospace;
@@ -59,7 +59,7 @@
   </style>
 
   <g class="glitch-frame">
-    <rect class="frame-bg" width="1000" height="160" rx="4" />
+    <rect class="frame-bg" width="1000" height="360" rx="4" />
     <text class="title-txt" x="15" y="18">AUTHORIZED_SESSION // IDENTITY: HERAS_L</text>
   </g>
 
@@ -88,5 +88,10 @@
 
     <!-- Base -->
     <text class="title base">I AM LAWRENCE HERAS</text>
+  </g>
+
+  <!-- Nested Snake Animation -->
+  <g transform="translate(100, 160)">
+    <image href="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/github-snake-dark.svg" width="800" height="180" />
   </g>
 </svg>
