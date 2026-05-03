@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="header.svg?v=17" width="100%" alt="I AM LAWRENCE HERAS" />
+  <img src="header.svg?v=18" width="100%" /><br/>
+  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/github-snake-dark.svg" width="100%" /><br/>
+  <img src="frame_bottom.svg" width="100%" />
 </p>
 
 <p align="center">

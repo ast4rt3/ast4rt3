@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="10" viewBox="0 0 1000 10">
+  <style>
+    .frame-border { fill: none; stroke: #8c00ff; stroke-width: 2; }
+  </style>
+  <path class="frame-border" d="M1 0 L1 6 Q1 9 4 9 L996 9 Q999 9 999 6 L999 0" />
+</svg>
