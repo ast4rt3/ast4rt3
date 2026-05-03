@@ -11,20 +11,22 @@
 </p>
 
 <p align="center">
-  <img src="music.svg?v=2" alt="MUSIC ON" />
-  <img src="https://img.shields.io/badge/JERK-OFF-cc0000?style=for-the-badge&logoColor=8c00ff" />
+  <img src="music.svg" alt="MUSIC ON" />
+  <img src="jerk.svg" alt="JERK OFF" />
 </p>
 
 <p align="center">
-  <i>I have a crippling impostor syndrome...</i>
-  <i>and severe brainrot...</i>
+  <img src="bio.svg" width="100%" alt="Bio" />
 </p>
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
-### [ STREAK 🔥🥵💯 ]
+<p align="center">
+  <img src="h3_streak.svg" width="100%" />
+</p>
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=000000&fire=a600ff&ring=a600ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" width="48%" />
@@ -35,7 +37,10 @@
   <img src="divider.svg" width="100%" />
 </p>
 
-### [ USED SERVICES ]
+<p align="center">
+  <img src="h3_services.svg" width="100%" />
+</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
@@ -51,7 +56,10 @@
   <img src="divider.svg" width="100%" />
 </p>
 
-### [ LINKS ]
+<p align="center">
+  <img src="h3_links.svg" width="100%" />
+</p>
+
 
 <p align="center">
   <a href="https://github.com/ast4rt3?tab=repositories">
