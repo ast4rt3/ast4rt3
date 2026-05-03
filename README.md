@@ -20,7 +20,7 @@
 
 <p align="center">
   <img src="snake_header.svg" width="100%" />
-  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/github-snake-dark.svg" width="100%" alt="GitHub Snake" />
+  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/github-snake-dark.svg?v=5" width="100%" alt="GitHub Snake" />
   <img src="snake_footer.svg" width="100%" />
 </p>
 
