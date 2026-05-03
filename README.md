@@ -18,11 +18,7 @@
   <img src="bio.svg" width="100%" alt="Bio" />
 </p>
 
-<p align="center">
-  <img src="snake_header.svg" width="100%" />
-  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/github-snake-dark.svg?v=5" width="100%" alt="GitHub Snake" />
-  <img src="snake_footer.svg" width="100%" />
-</p>
+<table align="center" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0a0a0a" style="border:0;border-collapse:collapse;border-spacing:0;line-height:0;font-size:0;outline:none;"><tr bgcolor="#0a0a0a"><td colspan="3" align="center" bgcolor="#0a0a0a"><img src="snake_header.svg" width="100%" border="0" style="display:block;width:100%;border:none;outline:none;vertical-align:bottom;" /></td></tr><tr bgcolor="#0a0a0a"><td width="2" bgcolor="#0a0a0a" valign="stretch"><img src="snake_side.svg" width="2" border="0" style="display:block;height:100%;border:none;outline:none;vertical-align:bottom;" /></td><td align="center" bgcolor="#0a0a0a"><img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/github-snake-dark.svg?v=8" width="100%" border="0" style="display:block;width:100%;border:none;outline:none;vertical-align:bottom;" /></td><td width="2" bgcolor="#0a0a0a" valign="stretch"><img src="snake_side.svg" width="2" border="0" style="display:block;height:100%;border:none;outline:none;vertical-align:bottom;" /></td></tr><tr bgcolor="#0a0a0a"><td colspan="3" align="center" bgcolor="#0a0a0a"><img src="snake_footer.svg" width="100%" border="0" style="display:block;width:100%;border:none;outline:none;vertical-align:bottom;" /></td></tr></table>
 
 <p align="center">
   <img src="divider.svg" width="100%" />
