@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.svg?v=21" width="100%" alt="I AM LAWRENCE HERAS" />
+  <img src="header_dino.svg?v=23" width="100%" alt="LAWRENCE HERAS // OFFLINE SESSION" />
 </p>
 <p align="center">
   <img src="divider.svg" width="100%" />
