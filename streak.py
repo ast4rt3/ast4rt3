@@ -149,11 +149,22 @@ def generate_svg(total, current, longest):
     with open(OUTPUT_FILE, "w") as f:
         f.write(svg_template)
 
+import sys
+
 if __name__ == "__main__":
     if not TOKEN:
-        print("Error: STREAK_TOKEN environment variable not set.")
+        print("CRITICAL ERROR: STREAK_TOKEN environment variable not set.")
+        print("Please ensure you have added the STREAK_TOKEN secret to your repository settings.")
+        sys.exit(1)
     else:
-        days, total = fetch_data(USERNAME, TOKEN)
-        current, longest = calculate_streaks(days)
-        generate_svg(total, current, longest)
-        print(f"Generated {OUTPUT_FILE}: Total={total}, Current={current}, Longest={longest}")
+        try:
+            print(f"Starting data fetch for user: {USERNAME}")
+            days, total = fetch_data(USERNAME, TOKEN)
+            print(f"Calculation streaks for {len(days)} days of data...")
+            current, longest = calculate_streaks(days)
+            generate_svg(total, current, longest)
+            print(f"SUCCESS: Generated {OUTPUT_FILE}")
+            print(f"Stats -> Total: {total}, Current Streak: {current}, Longest Streak: {longest}")
+        except Exception as e:
+            print(f"UNEXPECTED ERROR: {str(e)}")
+            sys.exit(1)
