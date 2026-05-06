@@ -30,7 +30,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/streak.svg" width="48%" />
+  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/streak.svg?v=2" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=000000&fire=a600ff&ring=a600ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" width="48%" />
 </p>
 

@@ -126,29 +126,29 @@ def calculate_streaks(all_days):
     return current_streak, longest_streak, total_range, current_range, longest_range
 
 def generate_svg(total, current, longest, total_range, current_range, longest_range):
-    # Colors (Tokyonight / Midnight Purple Aesthetic)
+    # Colors (Vibrant Tokyonight)
     bg_color = "#000000"
-    accent_color = "#a600ff"
+    accent_color = "#bf00ff" # More vibrant purple
     text_color = "#ffffff"
-    label_color = "#ffffff"
     subtext_color = "#9e9e9e"
+    divider_color = "#ffffff"
     
     svg_template = f"""
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none">
     <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="{bg_color}" stroke="none"/>
     
     <style>
-        .stat {{ font: 700 30px 'Segoe UI', Ubuntu, Sans-Serif; fill: {text_color}; }}
+        .stat {{ font: 700 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: {text_color}; }}
         .label {{ font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: {text_color}; }}
         .streak-label {{ font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: {accent_color}; }}
         .date {{ font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: {subtext_color}; }}
-        .divider {{ stroke: {subtext_color}; stroke-opacity: 0.3; }}
-        .ring {{ stroke: {accent_color}; stroke-width: 4; fill: none; }}
+        .divider {{ stroke: {divider_color}; stroke-opacity: 0.2; stroke-width: 1; }}
+        .ring {{ stroke: {accent_color}; stroke-width: 4.5; fill: none; }}
         .fire {{ fill: {accent_color}; }}
     </style>
 
     <!-- Total Contributions -->
-    <g transform="translate(80, 85)" text-anchor="middle">
+    <g transform="translate(82, 85)" text-anchor="middle">
         <text class="stat">{total}</text>
         <text y="25" class="label">Total Contributions</text>
         <text y="45" class="date">{total_range}</text>
@@ -160,15 +160,16 @@ def generate_svg(total, current, longest, total_range, current_range, longest_ra
 
     <!-- Current Streak -->
     <g transform="translate(247.5, 95)" text-anchor="middle">
-        <circle r="40" class="ring"/>
-        <path class="fire" d="M9.8 1.8c0 0-1.8 3.5-1.8 5.3s.9 1.8.9 1.8 1-.9 1-1.8 1.8-.9 1.8-.9.9 2.6.9 4.4-1.8 4.4-4.4 4.4-4.4-1.8-4.4-4.4 1.8-5.3 4.4-8.8z" transform="translate(-10, -55) scale(1.2)"/>
+        <circle r="44" class="ring"/>
+        <!-- Fire Icon on top of ring -->
+        <path class="fire" d="M9.8 1.8c0 0-1.8 3.5-1.8 5.3s.9 1.8.9 1.8 1-.9 1-1.8 1.8-.9 1.8-.9.9 2.6.9 4.4-1.8 4.4-4.4 4.4-4.4-1.8-4.4-4.4 1.8-5.3 4.4-8.8z" transform="translate(-11, -62) scale(1.4)"/>
         <text class="stat" y="8">{current}</text>
-        <text y="55" class="streak-label">Current Streak</text>
-        <text y="75" class="date">{current_range}</text>
+        <text y="60" class="streak-label">Current Streak</text>
+        <text y="80" class="date">{current_range}</text>
     </g>
 
     <!-- Longest Streak -->
-    <g transform="translate(415, 85)" text-anchor="middle">
+    <g transform="translate(413, 85)" text-anchor="middle">
         <text class="stat">{longest}</text>
         <text y="25" class="label">Longest Streak</text>
         <text y="45" class="date">{longest_range}</text>
