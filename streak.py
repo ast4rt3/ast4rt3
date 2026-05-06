@@ -47,10 +47,14 @@ def fetch_data(username, token):
                                  headers=headers)
         
         if response.status_code != 200:
-            print(f"Error fetching data: {response.text}")
-            break
+            print(f"Error fetching data (Status {response.status_code}): {response.text}")
+            exit(1)
             
         data = response.json()
+        if "errors" in data:
+            print(f"GraphQL Errors: {json.dumps(data['errors'], indent=2)}")
+            exit(1)
+            
         calendar = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
         total_count += calendar["totalContributions"]
         
