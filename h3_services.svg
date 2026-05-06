@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="50" viewBox="0 0 850 50">
+  <style>
+    .text { font-family: 'Courier New', monospace; font-size: 20px; fill: #8c00ff; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+    .line { stroke: #8c00ff; stroke-width: 1; opacity: 0.3; }
+    .dot { fill: #8c00ff; }
+    .glitch { animation: glitch 5s infinite; }
+    @keyframes glitch {
+      0%, 90% { transform: translate(0); }
+      92% { transform: translate(2px, -1px); }
+      94% { transform: translate(-2px, 1px); }
+      100% { transform: translate(0); }
+    }
+  </style>
+  <line x1="0" y1="25" x2="300" y2="25" class="line" />
+  <line x1="550" y1="25" x2="850" y2="25" class="line" />
+  <circle cx="300" cy="25" r="3" class="dot" />
+  <circle cx="550" cy="25" r="3" class="dot" />
+  <text x="425" y="25" class="text glitch">[ USED SERVICES ]</text>
+</svg>
