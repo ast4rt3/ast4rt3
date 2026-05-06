@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150">
+  <style>
+    /* Open Top Border */
+    .frame-border { fill: #0a0a0a; stroke: #8c00ff; stroke-width: 2; }
+    .dino { fill: #8c00ff; }
+    .obstacle { fill: #8c00ff; opacity: 0.8; }
+    .ground { stroke: #8c00ff; stroke-width: 1; opacity: 0.2; }
+    .text { font-family: 'Courier New', monospace; font-size: 10px; fill: #8c00ff; font-weight: bold; opacity: 0.6; }
+    
+    @keyframes jump {
+      0%, 78%, 100% { transform: translateY(0); }
+      86% { transform: translateY(-60px); }
+      94% { transform: translateY(0); }
+    }
+    .dino-group { animation: jump 4s infinite cubic-bezier(0.4, 0, 0.2, 1); }
+    
+    @keyframes leg-1 { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    @keyframes leg-2 { 0%, 50% { opacity: 0; } 51%, 100% { opacity: 1; } }
+    .leg-1 { animation: leg-1 0.2s infinite; }
+    .leg-2 { animation: leg-2 0.2s infinite; }
+
+    @keyframes move {
+      from { transform: translateX(1050px); }
+      to { transform: translateX(-50px); }
+    }
+    .obs-group { animation: move 4s infinite linear; }
+    
+    @keyframes scroll {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 100; }
+    }
+    .ground-line { stroke-dasharray: 2 15; animation: scroll 0.8s infinite linear; }
+  </style>
+
+  <!-- Path: Left, Bottom, Right. Open Top. -->
+  <path class="frame-border" d="M1 0 L1 146 Q1 149 4 149 L996 149 Q999 149 999 146 L999 0" />
+
+  <text class="text" x="15" y="10">SYSTEM_ERROR // STATUS: OFFLINE_PROTOCOL_ACTIVE</text>
+  <text class="text" x="850" y="10">HI 00999 00420</text>
+  
+  <line x1="20" y1="125" x2="980" y2="125" class="ground ground-line" />
+
+  <!-- Pixel-Perfect Dino -->
+  <g transform="translate(100, 70)">
+    <g class="dino-group">
+      <g class="dino">
+        <rect x="22" y="0" width="22" height="4"/>
+        <rect x="20" y="4" width="26" height="4"/>
+        <rect x="20" y="8" width="26" height="4"/>
+        <rect x="20" y="12" width="16" height="4"/>
+        <rect x="20" y="16" width="22" height="4"/>
+        <rect x="24" y="4" width="4" height="4" fill="#0a0a0a"/>
+        <rect x="0" y="20" width="12" height="4"/>
+        <rect x="0" y="24" width="16" height="4"/>
+        <rect x="0" y="28" width="20" height="4"/>
+        <rect x="4" y="32" width="20" height="4"/>
+        <rect x="8" y="36" width="16" height="4"/>
+        <rect x="12" y="40" width="8" height="4"/>
+        <rect x="24" y="24" width="4" height="4"/>
+      </g>
+      <g class="leg-1">
+        <rect class="dino" x="12" y="44" width="4" height="6"/>
+        <rect class="dino" x="20" y="44" width="4" height="6"/>
+      </g>
+      <g class="leg-2">
+        <rect class="dino" x="12" y="44" width="4" height="4"/>
+        <rect class="dino" x="16" y="44" width="4" height="6"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Obstacle (Cactus) -->
+  <g class="obs-group">
+    <g transform="translate(0, 100)">
+      <rect class="obstacle" x="0" y="0" width="8" height="25" />
+      <rect class="obstacle" x="-4" y="6" width="4" height="12" />
+      <rect class="obstacle" x="8" y="10" width="4" height="10" />
+    </g>
+  </g>
+</svg>

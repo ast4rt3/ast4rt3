@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="4">
+  <style>
+    .base-line { stroke: #111111; stroke-width: 4; }
+    .data-stream {
+      stroke: #8c00ff;
+      stroke-width: 2;
+      stroke-dasharray: 20 40 10 30 5 60 50 20;
+      animation: flow 3s linear infinite;
+    }
+    @keyframes flow {
+      from { stroke-dashoffset: 235; }
+      to { stroke-dashoffset: 0; }
+    }
+  </style>
+  <line x1="0" y1="2" x2="800" y2="2" class="base-line" />
+  <line x1="0" y1="2" x2="800" y2="2" class="data-stream" />
+</svg>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #0d1117;">
+
+    <button id="vineBoomBtn" style="font-size: 20px; padding: 15px 20px; background-color: #1f6feb; color: white; border: none; border-radius: 10px; cursor: pointer;">
+        🔊
+    </button>
+
+<audio id="vineBoomAudio">
+    <source src="https://www.myinstants.com/media/sounds/ganda_mo_intro-mp3cut.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+    <script>
+        document.getElementById('vineBoomBtn').addEventListener('click', function() {
+            var audio = document.getElementById('vineBoomAudio');
+            audio.play();
+        });
+    </script>
+
+</body>
+</html>
