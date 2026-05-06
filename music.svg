@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="28" viewBox="0 0 120 28">
-  <style>
-    .bg { fill: #0a0a0a; stroke: #8c00ff; stroke-width: 1; }
-    .text { font-family: 'Courier New', monospace; font-size: 12px; fill: #8c00ff; font-weight: bold; }
-    .status { fill: #00ffaa; }
-  </style>
-  <rect class="bg" width="119" height="27" rx="4" x="0.5" y="0.5" />
-  <text class="text" x="10" y="18">MUSIC: <tspan class="status">[ON]</tspan></text>
-</svg>

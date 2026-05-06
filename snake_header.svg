@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="20" viewBox="0 0 1000 20">
-  <style>
-    .frame { fill: #0a0a0a; stroke: #8c00ff; stroke-width: 2; }
-    .title-txt { font-family: 'Courier New', monospace; font-size: 10px; fill: #8c00ff; font-weight: bold; opacity: 0.6; }
-  </style>
-  <path class="frame" d="M1 20 L1 4 Q1 1 4 1 L996 1 Q999 1 999 4 L999 20" />
-  <text class="title-txt" x="15" y="14">CONTRIBUTION_GRID // SYSTEM_MONITOR</text>
-</svg>
