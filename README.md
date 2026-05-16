@@ -18,6 +18,8 @@
   <img src="bio.svg" width="100%" alt="Bio" />
 </p>
 
+
+
 <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0a0a0a" style="border:0;border-collapse:collapse;border-spacing:0;line-height:0;font-size:0;outline:none;"><tr bgcolor="#0a0a0a"><td colspan="3" align="center" bgcolor="#0a0a0a"><img src="snake_header.svg" width="100%" border="0" style="display:block;width:100%;border:none;outline:none;vertical-align:bottom;" /></td></tr><tr bgcolor="#0a0a0a"><td width="2" bgcolor="#0a0a0a" valign="stretch" style="width:2px;min-width:2px;"><img src="snake_side.svg" width="2" border="0" style="display:block;width:2px;height:100%;border:none;outline:none;vertical-align:bottom;" /></td><td align="center" bgcolor="#0a0a0a"><img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/purple-snake.svg?v=12" width="100%" border="0" style="display:block;width:100%;border:none;outline:none;vertical-align:bottom;" /></td><td width="2" bgcolor="#0a0a0a" valign="stretch" style="width:2px;min-width:2px;"><img src="snake_side.svg" width="2" border="0" style="display:block;width:2px;height:100%;border:none;outline:none;vertical-align:bottom;" /></td></tr><tr bgcolor="#0a0a0a"><td colspan="3" align="center" bgcolor="#0a0a0a"><img src="snake_footer.svg" width="100%" border="0" style="display:block;width:100%;border:none;outline:none;vertical-align:bottom;" /></td></tr></table>
 
 <p align="center">
@@ -30,8 +32,9 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/streak.svg?v=3" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ast4rt3&theme=tokyonight&background=000000&fire=a600ff&ring=a600ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ast4rt3&bg_color=000000&title_color=a600ff&icon_color=a600ff&text_color=ffffff&hide_border=true&show_icons=true" width="48%" />
+   <!-- <img src="https://raw.githubusercontent.com/ast4rt3/ast4rt3/output/streak.svg?v=3" width="48%" /> -->
+  <img src="https://camo.githubusercontent.com/0b9472f29e69260af33ca92c22d9b7fe4f4e4a5ba667990122815c2d72be0cb1/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d3f757365723d61737434727433267468656d653d746f6b796f6e69676874266261636b67726f756e643d30303030303026666972653d6136303066662672696e673d61363030666626736964654e756d733d66666666666626736964654c6162656c733d6666666666662664617465733d66666666666626686964655f626f726465723d74727565" width="48%" />
 </p>
 
 
